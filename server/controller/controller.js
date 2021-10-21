@@ -1,7 +1,7 @@
 const Product = require("../model/product");
 const cart = require("../model/cart");
 
-// Adding product to database
+// Adding product to databas
 exports.addProduct = async (req, res) => {
   const productInfo = ({ name, price, description, imgUrl } = req.body);
 
