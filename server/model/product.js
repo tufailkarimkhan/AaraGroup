@@ -3,7 +3,7 @@ const { Schema } = mongoose;
 
 const product = new Schema({
   name: {
-    type: string,
+    type: String,
     required: true,
     mingLength: 3,
   },
