@@ -1,7 +1,7 @@
 const Product = require("../model/product");
 const cart = require("../model/cart");
 
-// Adding product to databas
+// Adding product to databas //Here i write some text for testing of fork
 exports.addProduct = async (req, res) => {
   const productInfo = ({ name, price, description, imgUrl } = req.body);
 
