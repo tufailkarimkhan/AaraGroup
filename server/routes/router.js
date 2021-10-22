@@ -3,6 +3,7 @@ const route = express.Router();
 const { addProduct, addToCart } = require("../controller/controller");
 
 route.post("/addProduct", addProduct);
-// route.exports("/addToCart", addToCart);
+
+route.post("/addToCart", addToCart);
 
 module.exports = route;
